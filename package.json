@@ -2,9 +2,10 @@
   "name": "asynchronism-js-platzi",
   "version": "1.0.0",
   "description": "dizzy Curso de Asincronismo con JavaScript",
-  "main": ".eslintrc.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callbacksCalc": "node others/callbacks/calc.js",
+    "callbacksDate": "node others/callbacks/dates.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "prettier": "^2.3.1",
-    "prettier-eslint": "^12.0.0"
+    "prettier-eslint": "^12.0.0",
+    "xmlhttprequest": "^1.8.0"
   }
 }
