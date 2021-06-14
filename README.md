@@ -1,4 +1,4 @@
-# Asynchronism-JS-Platzi
+# Curso de Asincronismo con JavaScript
 
 [![GitMoji](https://img.shields.io/badge/gitmoji-%20😜-FFDD67.svg)](https://gitmoji.dev)
 [![Language Grade](https://img.shields.io/lgtm/grade/javascript/g/UltiRequiem/Asynchronism-JS-Platzi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UltiRequiem/Asynchronism-JS-Platzi/context:javascript)
