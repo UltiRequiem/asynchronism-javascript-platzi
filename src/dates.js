@@ -8,4 +8,4 @@ const getDate = (callback) => {
 
 const printDate = (dateNow) => console.log(dateNow);
 
-getDate(printDate)
+getDate(printDate);
