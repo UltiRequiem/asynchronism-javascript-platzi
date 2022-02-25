@@ -1,8 +1,9 @@
-const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
+import { XMLHttpRequest } from 'xmlhttprequest';
+
+const xhttp = new XMLHttpRequest();
 
 const fetchData = (url_api) => {
   return new Promise((resolve, reject) => {
-    const xhttp = new XMLHttpRequest();
     xhttp.open('GET', url_api, true);
     xhttp.onreadystatechange = () => {
       if (xhttp.readyState === 4) {
@@ -15,4 +16,4 @@ const fetchData = (url_api) => {
   });
 };
 
-module.exports = fetchData;
+export default fetchData;

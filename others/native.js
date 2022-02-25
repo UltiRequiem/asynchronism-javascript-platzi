@@ -1,8 +1,9 @@
-const https = require('https');
+import { get } from 'node:https';
+
 const API = 'https://rickandmortyapi.com/api/character/';
 
 function APIRequest(url, callback) {
-  https.get(url, (res) => {
+  get(url, (res) => {
     res.setEncoding('utf8');
     if (res.statusCode === 200) {
       let body = '';

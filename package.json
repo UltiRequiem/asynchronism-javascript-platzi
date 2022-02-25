@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "dizzy Curso de Asincronismo con JavaScript",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "callbacksCalc": "node others/callbacks/calc.js",
-    "callbacksDate": "node others/callbacks/dates.js"
+    "callbacksDate": "node others/callbacks/dates.js",
+    "format": "prettier --write .",
+    "lint": "eslint . && prettier --check ."
   },
   "repository": {
     "type": "git",

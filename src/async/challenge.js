@@ -1,4 +1,5 @@
-const fetchData = require('../utils/fetchData');
+import fetchData from '../utils/fetchData.js';
+
 const API = 'https://rickandmortyapi.com/api/character/';
 
 const anotherFunc = async (url) => {
